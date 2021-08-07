@@ -24,6 +24,10 @@
   background-color: #FDAF1B;
 }
 
-.box {
-  font-family: 'Press Start 2P', cursive;
+.nav-logo-border {
+  width: 154px;
+}
+
+body {
+  background-color: #280003;
 }
