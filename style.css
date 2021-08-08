@@ -19,6 +19,8 @@
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {}
 
+/* <!--Navbar start--  */
+
 .navbtn {
   font-family: 'Press Start 2P', cursive;
   background-color: #FDAF1B;
@@ -29,5 +31,57 @@
 }
 
 body {
-  background-color: #280003;
+  background-color: #FDAF1B;
+}
+
+.row {
+  background-color: #A9471C;
+  min-height: 980px;
+}
+
+/* <!--Navbar end--  */
+
+/* <!--Row 1--  */
+
+#backvid {
+  position: relative;
+}
+
+#backvid video {
+  height: 100vh;
+  width: 100%;
+  back-ground-position: absolute;
+  z-index: 10;
+  object-fit: cover;
+}
+
+#backvid .content {
+  background: rgba(0.0.0.0.90);
+  height: 100%;
+  width: 100%;
+  z-index: 20;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#backvid .content h1 {
+  font-family: 'Press Start 2P', cursive;
+  color: #DE711D;
+  font-size: 60px;
+  padding: 10px;
+}
+
+#backvid .content h2 {
+  font-family: 'Press Start 2P', cursive;
+  color: #DE711D;
+  font-size: 60px;
+  padding: 10px;
+}
+
+#backvid .content h3 {
+  font-family: 'Press Start 2P', cursive;
+  color: #DE711D;
+  font-size: 60px;
+  padding: 10px;
 }
