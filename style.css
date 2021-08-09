@@ -96,6 +96,15 @@ body {
 .card {
   font-family: 'Press Start 2P', cursive;
   color: #DE711D;
-  font-size: 10px;
+  font-size: 9px;
   padding: 10px;
+}
+
+.card-title {
+  font-size: 20px;
+  color: #fee373;
+}
+
+.card-body {
+  background-color: #280003;
 }
