@@ -4,7 +4,6 @@
   background-color: blue;
 } */
 
-
 /* ----------- iPhone X ----------- */
 
 /* Portrait and Landscape */
@@ -91,5 +90,12 @@ body {
   font-family: 'Press Start 2P', cursive;
   color: #DE711D;
   font-size: 60px;
+  padding: 10px;
+}
+
+.card {
+  font-family: 'Press Start 2P', cursive;
+  color: #DE711D;
+  font-size: 10px;
   padding: 10px;
 }
