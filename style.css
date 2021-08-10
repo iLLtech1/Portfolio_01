@@ -98,6 +98,7 @@ body {
   color: #DE711D;
   font-size: 9px;
   padding: 10px;
+  
 }
 
 .card-title {
@@ -107,4 +108,13 @@ body {
 
 .card-body {
   background-color: #280003;
+}
+
+.scratch {
+  padding: 90px;
+}
+
+.mycontact {
+  padding: 300px;
+  padding-left: 100px;
 }
